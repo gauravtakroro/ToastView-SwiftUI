@@ -14,6 +14,7 @@
 		931014662B3A182B0079724A /* ToastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931014652B3A182B0079724A /* ToastViewModel.swift */; };
 		931014682B3A188F0079724A /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931014672B3A188F0079724A /* ToastView.swift */; };
 		9310146A2B3A1DFE0079724A /* ToastConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931014692B3A1DFE0079724A /* ToastConfig.swift */; };
+		9310146D2B3A20540079724A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310146C2B3A20540079724A /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		931014652B3A182B0079724A /* ToastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewModel.swift; sourceTree = "<group>"; };
 		931014672B3A188F0079724A /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		931014692B3A1DFE0079724A /* ToastConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastConfig.swift; sourceTree = "<group>"; };
+		9310146C2B3A20540079724A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		931014392B3A15000079724A /* ToastViewWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9310146B2B3A20410079724A /* Extensions */,
 				931014642B3A180F0079724A /* ToastViewClasses */,
 				9310143A2B3A15000079724A /* ToastViewWithSwiftUIApp.swift */,
 				9310143C2B3A15000079724A /* ContentView.swift */,
@@ -117,6 +120,14 @@
 				931014692B3A1DFE0079724A /* ToastConfig.swift */,
 			);
 			path = ToastViewClasses;
+			sourceTree = "<group>";
+		};
+		9310146B2B3A20410079724A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9310146C2B3A20540079724A /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 				9310143D2B3A15000079724A /* ContentView.swift in Sources */,
 				931014662B3A182B0079724A /* ToastViewModel.swift in Sources */,
 				9310146A2B3A1DFE0079724A /* ToastConfig.swift in Sources */,
+				9310146D2B3A20540079724A /* View+Extensions.swift in Sources */,
 				9310143B2B3A15000079724A /* ToastViewWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
