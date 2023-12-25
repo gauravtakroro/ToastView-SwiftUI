@@ -13,9 +13,9 @@ class ToastViewModel: ObservableObject {
     
     @Published var showToast = false
     @Published var toastMessage = ""
+    @Published var duration: TimeInterval = Toast.SHORT
 
     func showToastWithString(text: String) {
         self.toastMessage = text
-        self.showToast = true
     }
 }

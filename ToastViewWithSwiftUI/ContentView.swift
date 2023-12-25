@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var toastViewModel = ToastViewModel.shared
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("ToastView")
+            Button {
+                toastViewModel.toastMessage = "Test Message-1"
+                toastViewModel.duration = Toast.SHORT
+                toastViewModel.showToast = true
+            } label: {
+                Text("Show Toast with Message With Short Duration")
+            }.padding(.bottom, 20)
+            
+            Button {
+                toastViewModel.toastMessage = "Test Message-2"
+                toastViewModel.duration = Toast.LONG
+                toastViewModel.showToast = true
+            } label: {
+                Text("Show Toast with Message With Long Duration")
+            }
         }
-        .padding()
+        .padding().onAppear {
+            toastViewModel.showToastWithString(text: "Test Message")
+        }.toast(message: toastViewModel.toastMessage, isShowing: $toastViewModel.showToast, duration: toastViewModel.duration)
+
     }
 }
 

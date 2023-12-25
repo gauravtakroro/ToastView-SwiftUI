@@ -10,10 +10,9 @@ import SwiftUI
 
 struct Toast: ViewModifier {
  
-  static let short: TimeInterval = 2
-
-  static let long: TimeInterval = 3.5
-
+    static let SHORT: TimeInterval = 2
+    static let LONG: TimeInterval = 3.5
+    
     let message: String
     var description: String = ""
     @Binding var isShowing: Bool
@@ -38,12 +37,6 @@ struct Toast: ViewModifier {
                             .multilineTextAlignment(.center)
                             .foregroundColor(toastConfig.textColor)
                             .font(toastConfig.messageFont)
-                        if !description.isEmpty {
-                            Text(description)
-                                .multilineTextAlignment(.center)
-                                .foregroundColor(toastConfig.textColor)
-                                .font(toastConfig.descriptionFont)
-                        }
                     }.padding(.vertical, 16)
                         .padding(.horizontal, 30)
                 }.background(Capsule().foregroundColor(toastConfig.backgroundColor))
