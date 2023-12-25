@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ToastViewWithSwiftUI
 //
-//  Created by Roro Solutions LLP on 26/12/23.
+//  Created by Gaurav Tak on 26/12/23.
 //
 
 import SwiftUI
@@ -13,14 +13,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("ToastView")
         }
         .padding()
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif

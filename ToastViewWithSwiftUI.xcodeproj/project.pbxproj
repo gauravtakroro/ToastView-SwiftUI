@@ -11,9 +11,6 @@
 		9310143D2B3A15000079724A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310143C2B3A15000079724A /* ContentView.swift */; };
 		9310143F2B3A15020079724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9310143E2B3A15020079724A /* Assets.xcassets */; };
 		931014422B3A15020079724A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931014412B3A15020079724A /* Preview Assets.xcassets */; };
-		9310144C2B3A15020079724A /* ToastViewWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310144B2B3A15020079724A /* ToastViewWithSwiftUITests.swift */; };
-		931014562B3A15020079724A /* ToastViewWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931014552B3A15020079724A /* ToastViewWithSwiftUIUITests.swift */; };
-		931014582B3A15020079724A /* ToastViewWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931014572B3A15020079724A /* ToastViewWithSwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		9310143E2B3A15020079724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931014412B3A15020079724A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		931014472B3A15020079724A /* ToastViewWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastViewWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9310144B2B3A15020079724A /* ToastViewWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewWithSwiftUITests.swift; sourceTree = "<group>"; };
 		931014512B3A15020079724A /* ToastViewWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastViewWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		931014552B3A15020079724A /* ToastViewWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewWithSwiftUIUITests.swift; sourceTree = "<group>"; };
-		931014572B3A15020079724A /* ToastViewWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				931014392B3A15000079724A /* ToastViewWithSwiftUI */,
-				9310144A2B3A15020079724A /* ToastViewWithSwiftUITests */,
-				931014542B3A15020079724A /* ToastViewWithSwiftUIUITests */,
 				931014382B3A15000079724A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				931014412B3A15020079724A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9310144A2B3A15020079724A /* ToastViewWithSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9310144B2B3A15020079724A /* ToastViewWithSwiftUITests.swift */,
-			);
-			path = ToastViewWithSwiftUITests;
-			sourceTree = "<group>";
-		};
-		931014542B3A15020079724A /* ToastViewWithSwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				931014552B3A15020079724A /* ToastViewWithSwiftUIUITests.swift */,
-				931014572B3A15020079724A /* ToastViewWithSwiftUIUITestsLaunchTests.swift */,
-			);
-			path = ToastViewWithSwiftUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9310144C2B3A15020079724A /* ToastViewWithSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931014562B3A15020079724A /* ToastViewWithSwiftUIUITests.swift in Sources */,
-				931014582B3A15020079724A /* ToastViewWithSwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
