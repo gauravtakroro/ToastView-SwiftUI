@@ -20,7 +20,7 @@ struct ContentView: View {
                 toastViewModel.duration = Toast.SHORT
                 toastViewModel.showToast = true
             } label: {
-                Text("Show Toast with Message With Short Duration").bold()
+                Text("Show Toast with Message With Short Duration").bold().underline()
             }
             
             Button {
@@ -28,31 +28,31 @@ struct ContentView: View {
                 toastViewModel.duration = Toast.LONG
                 toastViewModel.showToast = true
             } label: {
-                Text("Show Toast with Message With Long Duration").bold()
+                Text("Show Toast with Message With Long Duration").bold().underline()
             }
             
             Button {
                 advancedToastView = AdvancedToast(type: .success, title: "Success", message: "Data saved successfully.")
             } label: {
-                Text("Show Advanced Toast with Success Message").bold()
+                Text("Show Advanced Toast with Success Message").bold().underline()
             }
             
             Button {
                 advancedToastView = AdvancedToast(type: .info, title: "Info", message: "All information is fetched from Realtime Stock Market.")
             } label: {
-                Text("Show Advanced Toast with Info Message").bold()
+                Text("Show Advanced Toast with Info Message").bold().underline()
             }
             
             Button {
                 advancedToastView = AdvancedToast(type: .warning, title: "Warning", message: "All information are required to fill")
             } label: {
-                Text("Show Advanced Toast with Warning Message").bold()
+                Text("Show Advanced Toast with Warning Message").bold().underline()
             }
             
             Button {
                 advancedToastView = AdvancedToast(type: .error, title: "Error", message: "please correct input values")
             } label: {
-                Text("Show Advanced Toast with Error Message").bold()
+                Text("Show Advanced Toast with Error Message").bold().underline()
             }
         }
         .padding().onAppear {
