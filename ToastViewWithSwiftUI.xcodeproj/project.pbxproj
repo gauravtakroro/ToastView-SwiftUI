@@ -102,9 +102,9 @@
 		931014392B3A15000079724A /* ToastViewWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				931014642B3A180F0079724A /* ToastViewClasses */,
 				93DE92CC2B3B34FC00833EA3 /* AdvancedToastViewClasses */,
 				9310146B2B3A20410079724A /* Extensions */,
-				931014642B3A180F0079724A /* ToastViewClasses */,
 				9310143A2B3A15000079724A /* ToastViewWithSwiftUIApp.swift */,
 				9310143C2B3A15000079724A /* ContentView.swift */,
 				9310143E2B3A15020079724A /* Assets.xcassets */,
